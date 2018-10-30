@@ -2,5 +2,8 @@
 - django version 2.1.2
 
 # helloword project
-- superuser: admin:P@$sw0rd!
+
+
+# bookstorev1 project
+- simple django project that uses templates, static files/css, etc.
 
