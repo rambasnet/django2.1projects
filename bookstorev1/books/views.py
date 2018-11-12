@@ -42,7 +42,8 @@ def index(request):
     #return HttpResponse(html%('Welcome...', 'First page work in progresss..'))
     now = datetime.datetime.now()
     context = {'page_title': 'Current date time',
-                'current_time': now
+                'current_time': now,
+                'page_heading': 'Django Time'
                 }
     return render(request, 'books/index.html', context)
     
@@ -86,6 +87,7 @@ def login_view(request):
     context = {
         'page_title': 'Login',
         'heading': 'Login',
+        'content': "<h1>Some content</h1> <script>alert('hello')</script>"
     }
     return render(request, 'books/login.html', context)
 

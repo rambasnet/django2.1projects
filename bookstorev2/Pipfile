@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+verify_ssl = true
+url = "https://pypi.org/simple"
+
+[dev-packages]
+
+[requires]
+python_version = "3.5"
+
+[packages]
+django = "*"
+django-summernote = "*"
+sorl-thumbnail = "*"
+pylint-django = "*"
+pillow = "*"
